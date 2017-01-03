@@ -20,3 +20,12 @@ To calculate the **closeness centrality** metric we need to find the **shortest 
 - In the *data* directory, edit the *app_settings* file with your Facebook App settings (if you want to use the Facebook functionalities)
 - Add any *adjacency list data file* in the *data* directory, you can look at the suplied files to see examples of the formatting
 - Run the *main.rb* script inside the *bin* directory and have fun :smiley::thumbsup: 
+
+## Dependencies
+- [Koala](https://github.com/arsduo/koala)
+
+## References
+- [Closeness Centrality](http://en.wikipedia.org/wiki/Centrality#Closeness_centrality)
+- [Facebook API](https://developers.facebook.com/docs/graph-api/reference/v2.0/user/friends)
+- [Facebook API (mutual friends)](https://developers.facebook.com/docs/graph-api/reference/v2.0/user.context/mutual_friends)
+- [Shortest path](http://en.wikipedia.org/wiki/Shortest_path_problem)
