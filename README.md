@@ -13,6 +13,7 @@ The first part of the challenge is to rank the vertices in a given graph by thei
 The second part of the challenge is to plug your algorithm on Facebook's API and rank the centrality of the social graph extracted from one user and his list of friends. A good start might be the mutual friends API. In order to exercise your code, you can use Facebook’s sandbox Test Users feature (you can find it under Roles).
 
 ## Outling the solution
+From the challenge exercise, we assume that the given graph is an **Unweighted and Undirected Graph**.
 To calculate the **closeness centrality** metric we need to find the **shortest path lenght (distance)** between a node and all other nodes from a given graph, in order to do that we can use the **Breadth First Search Algorithm (BFS)**, that traverses the graph and find a shortest path (not all of them, just "a") between two nodes. With all the distances in hand we can calculate the closeness centrality from that node.
 
 ## Setuping the project
