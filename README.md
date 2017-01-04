@@ -23,7 +23,7 @@ To calculate the **closeness centrality** metric we need to find the **shortest 
 - In the *data* directory, edit the *app_settings* file with your Facebook App settings (if you want to use the Facebook functionalities)
 - Add any *adjacency list data file* in the *data* directory, you can look at the suplied files to see examples of the formatting
 - Add the *lib* directory to your environment variable *RUBYLIB* or run the scripts with the *-I* parameter, specifying the *lib* directory path
-- Run the *main.rb* script inside the *bin* directory have fun :smiley::thumbsup: 
+- Run the *main.rb* script inside the *bin* directory and have fun :smiley::thumbsup: 
 
 ## Dependencies
 - [Koala](https://github.com/arsduo/koala)
