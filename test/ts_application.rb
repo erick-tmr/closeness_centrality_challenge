@@ -1,0 +1,5 @@
+require 'test/unit'
+require_relative 'test_closeness_centrality'
+require_relative 'test_graph'
+require_relative 'test_breadth_first_search'
+require_relative 'test_facebook_social_graph'

@@ -1,4 +1,5 @@
 require 'koala'
+require 'ui_cc/ui_cc'
 
 module FacebookSocialGraph
   class FacebookSocialGraph

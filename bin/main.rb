@@ -30,7 +30,13 @@ if ui.use_facebook_data?
 
   user_name_underscored = graph_api.get_current_user['name'].gsub(' ','_')
   path_to_edges = File.join(File.dirname(__FILE__), "../data/#{user_name_underscored}.dat")
-  graph = BreadthFirstSearch::Graph.new path_to_edges
+  begin
+    graph = BreadthFirstSearch::Graph.new path_to_edges
+  rescue RuntimeError => e
+    puts e
+    puts "Try again later."
+    abort
+  end
   cc = ClosenessCentrality::ClosenessCentrality.new graph
 
   option = ui.local_data_menu
@@ -46,7 +52,13 @@ if ui.use_facebook_data?
 else
   file_name = ui.get_local_data
   path_to_file = File.join(File.dirname(__FILE__), "../data/#{file_name}")
-  graph = BreadthFirstSearch::Graph.new path_to_file
+  begin
+    graph = BreadthFirstSearch::Graph.new path_to_file
+  rescue RuntimeError => e
+    puts e
+    puts "Verify your data file and try again."
+    abort
+  end
   cc = ClosenessCentrality::ClosenessCentrality.new graph
   option = ui.local_data_menu
   while !option.nil?

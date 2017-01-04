@@ -6,10 +6,10 @@ module BreadthFirstSearch
     attr_reader :nodes
 
     def initialize(adj_list_file)
-      @edges = read_file(adj_list_file)
+      @edges = read_file adj_list_file
       @nodes = []
       @ui = UserInterface::UserInterface.new
-      build_graph(@edges)
+      build_graph @edges
     end
 
     def print_nodes
@@ -34,6 +34,7 @@ module BreadthFirstSearch
 
     def read_file(file_name)
       edges = []
+      raise(RuntimeError, "The file you loaded is empty.") if File.zero? file_name
       file = File.open(file_name, "r") do |file|
         file.each_line() do |line|
           line = line.chomp.split

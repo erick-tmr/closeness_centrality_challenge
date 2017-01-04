@@ -4,6 +4,8 @@ require 'ui_cc/ui_cc'
 
 module ClosenessCentrality
   class ClosenessCentrality
+    attr_reader :closeness_centrality
+
     def initialize(graph)
       @shortest_paths_average = calculate_shortest_paths_average_lenght graph
       @closeness_centrality = calculate_closeness_centrality @shortest_paths_average
