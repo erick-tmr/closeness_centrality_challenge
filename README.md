@@ -33,7 +33,8 @@ In the *facebook_social_graph* lib there is a class named *facebook_testusers_ma
 *Obs: Please notice that due to the Facebook API calls these methods can be a bit slow to run.*
 
 ## Tests
-In the *tests* directory there are some test suits, bundled by libs, using the Ruby built-in MiniTest Framework. Just run the scripts to see the tests.
+In the *tests* directory there are some test suits, bundled by libs, using the Ruby built-in MiniTest Framework.</br> 
+Just run the scripts to see the tests.
 
 ## References
 - [Closeness Centrality](http://en.wikipedia.org/wiki/Centrality#Closeness_centrality)
