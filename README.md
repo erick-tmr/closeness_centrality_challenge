@@ -17,7 +17,7 @@ From the challenge exercise, we assume that the given graph is an **Unweighted a
 
 To calculate the **closeness centrality** metric we need to find the **shortest path lenght (distance)** between a node and all other nodes from a given graph, in order to do that we can use the **Breadth First Search Algorithm (BFS)**, that traverses the graph and find a shortest path (not all of them, just "a") between two nodes. With all the distances in hand we can calculate the closeness centrality from that node.
 
-## Setuping the project
+## Setting up the project
 - Clone this repository to your local machine.
 - In the *data* directory, edit the *app_settings* file with your Facebook App settings (if you want to use the Facebook functionalities)
 - Add any *adjacency list data file* in the *data* directory, you can look at the suplied files to see examples of the formatting
