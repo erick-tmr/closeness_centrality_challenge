@@ -29,7 +29,7 @@ To calculate the **closeness centrality** metric we need to find the **shortest 
 - [Koala](https://github.com/arsduo/koala)
 
 ## Managing your Facebook app
-In the *facebook_social_graph* there is a class named *facebook_testusers_manager* that you can use to manage the test users from your app, the methods have pretty straight forward name meaning, you can create, list and *be friend* your users.</br>
+In the *facebook_social_graph* lib there is a class named *facebook_testusers_manager* that you can use to manage the test users from your app, the methods have pretty straight forward name meaning, you can create, list and *be friend* your users.</br>
 *Obs: Please notice that due to the Facebook API calls these methods can be a bit slow to run.*
 
 ## Tests
