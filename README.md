@@ -1,7 +1,7 @@
 # Facebook Closeness Centrality Social Analyzer
 
 ## Brief Description
-A closeness centrality analyser that rank nodes in a graph from an adjacency list or from a facebook user friends list.
+A closeness centrality analyser that ranks the nodes in a graph from an adjacency list or from a Facebook's user friends list.
 
 ## This repository is the solution to the given challenge
 In this challenge, suppose we are looking to do social network analysis for prospective customers. We want to extract from their social network a metric called "closeness centrality".
@@ -27,7 +27,7 @@ To calculate the **closeness centrality** metric we need to find the **shortest 
 - [Koala](https://github.com/arsduo/koala)
 
 ## Tests
-In the *tests* directory there is some test suits, bundled by libs, using the Ruby built-in MiniTest Framework, just run the scripts to see the tests.
+In the *tests* directory there are some test suits, bundled by libs, using the Ruby built-in MiniTest Framework. Just run the scripts to see the tests.
 
 ## References
 - [Closeness Centrality](http://en.wikipedia.org/wiki/Centrality#Closeness_centrality)
